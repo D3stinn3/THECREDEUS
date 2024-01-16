@@ -1,0 +1,1 @@
+web: gunicorn Credeus.wsgi --log-file -
