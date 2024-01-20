@@ -15,11 +15,14 @@
                 <nav x-data="{ isOpen: false }" class="container mx-auto p-6 lg:flex lg:items-center lg:justify-between">
                     <div class="flex items-center justify-between">
                     <div>
-                        <img
-                        href="{% url 'homepage' %}"
+                        <a href="{% url 'homepage' %}">
+
+                            <img
                         class="rounded-t-lg"
                         src="{% static "images/CREDEASlogo.png" %}"
                         alt="Skyscrapers" />
+                            
+                        </a>
                     </div>
             
                     <!-- Mobile menu button -->
